@@ -1,5 +1,12 @@
 .portfolio{
 background-color: darkcyan;
 
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
 
+    width: 100%;
 }
