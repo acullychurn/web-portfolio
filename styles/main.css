@@ -15,7 +15,7 @@ background-color: rgb(170, 230, 230);
 }
 .right{
     width: 700px;
-    height: 100px;
+    height: 200px;
     border: 5px solid #c3c3c3;
     display: flex;
     flex-wrap: wrap;
