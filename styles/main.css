@@ -20,7 +20,7 @@ background-color: rgb(170, 230, 230);
     border: 5px solid rgb(77, 7, 7);
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: right;
 }
 .wrapper{
 
