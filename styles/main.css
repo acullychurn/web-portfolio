@@ -40,11 +40,46 @@ background-color: rgb(170, 230, 230);
   align-content: center;
   width: 100%;
 }
-.right{
-    width: 350px;
-    height: 250px;
-    border: 5px solid rgb(77, 7, 7);
-    display: flex;
-    align-content: center;
+/* portfolio sections */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Area1 Area2 Area3"
+    "Area1 Area2 Area4";
+}
+.area1 { grid-area: Area1; }
+.area2 { grid-area: Area2; }
+.area3 { grid-area: Area3; }
+.area4 { grid-area: Area4; }
+
+
+/* contact details */
+.contact-details{
+  padding: 40px;
+}
+
+.contact-form {
+  padding: 40px;
+}
+
+.contact-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 20px;
 }
 
