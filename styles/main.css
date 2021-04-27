@@ -40,6 +40,17 @@ background-color: rgb(170, 230, 230);
   align-content: center;
   width: 100%;
 }
+/* header */
+header {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* hero */
+.hero-block {
+  padding: 40px;
+  background-color: #ccc;
+}
 /* portfolio sections */
 
 .grid-container {
