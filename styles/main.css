@@ -1,10 +1,64 @@
-.portfolio{
-background-color: rgb(170, 230, 230);
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-*{
-    margin: 15px;
-    font-family: sans-serif;
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', serif;
+}
+
+.portfolio {
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+/* responsive image */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img--full {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* grid structure */
+.row {
+  clear:both;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-clear {
+  clear: both;
+}
+
+.one-third, .two-thirds, .half {
+  width: 100%;
+  float:left;
+  padding: 0 10px;
+}
+
+.portfolio{
+background-color: rgb(235, 247, 247);
+
 }
 .container {
     display: grid;
