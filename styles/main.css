@@ -27,7 +27,7 @@ body {
   }
   h1{
     color: dodgerblue;
-    animation: infinite;
+    -moz-animation-direction: reverse;
   }
 
 @media only screen and (min-width: 1024px) {
