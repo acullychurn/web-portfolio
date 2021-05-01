@@ -35,9 +35,14 @@ body {
     animation: span 3s ease-in infinite alternate;
   }
   .spantext{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;
+    background: #f7f7f7;
   }
   .letter{
     display: inline-flex;
