@@ -39,8 +39,6 @@ body {
     justify-content: center;
     align-items: flex-start;
   }
-  alternate;
-}
 @keyframes span {
 	0%,30%{ margin: 0 15px; }
 	70%,100%{ margin: 0 5px; }
