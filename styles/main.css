@@ -23,7 +23,12 @@ body {
   font-family: fantasy;
   font-weight: bold;
   font-style: oblique;
-}
+  font-synthesis: style;
+  }
+  h1{
+    color: dodgerblue;
+    animation: infinite;
+  }
 
 @media only screen and (min-width: 1024px) {
   .portfolio {
