@@ -143,12 +143,6 @@ header {
   padding: 20px 10px;
 }
 
-/* hero */
-.hero-block {
-  padding: 40px;
-  background-color: #ccc;
-}
-
 @media only screen and (min-width: 768px) {
   .hero-block {
     position: absolute;
