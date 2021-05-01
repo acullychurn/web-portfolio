@@ -159,16 +159,6 @@ header {
   margin-bottom: 40px;
 }
 
-/* icon tiles */
-.icon-tile {
-  padding: 40px;
-  text-align: center;
-}
-
-.icon-tile h2{
-  padding-top: 20px;
-}
-
 @media only screen and (min-width: 768px) {
   .icon-tile {
     padding: 60px 40px;
