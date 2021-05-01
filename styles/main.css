@@ -76,6 +76,9 @@ body {
 background-color: rgb(226, 240, 234);
 
 }
+.center {
+  text-align: right;
+}
 .wrapper{
   align-content: center;
   width: 100%;
