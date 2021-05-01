@@ -11,9 +11,7 @@ body {
   font-family: 'Raleway', serif;
 }
 
-.portfolio {
-  width: 100%;
-}
+
 @media only screen and (min-width: 1024px) {
   .portfolio {
     width: 1024px;
