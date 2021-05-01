@@ -77,35 +77,6 @@ body {
 background-color: rgb(226, 240, 234);
 
 }
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-  .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
-  }
-  
-  .left-side {
-    display: flex;
-  }
-  
-  .nav-wrapper > .left-side > div {
-      text-transform: uppercase;
-  }
-  
-  .nav-link-wrapper {
-    height: 22px;
-    border-bottom: 1px solid transparent;
-  }
-.center{
-    display: block;
-    display: flex;
-    padding: 15px;
-    align-content: center;
-}
 .wrapper{
   align-content: center;
   width: 100%;
