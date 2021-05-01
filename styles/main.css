@@ -1,8 +1,11 @@
+/* reset the CSS */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* general */
 html {
   font-size: 16px;
 }
@@ -11,6 +14,9 @@ body {
   font-family: 'Raleway', serif;
 }
 
+.portfolio {
+  width: 100%;
+}
 
 @media only screen and (min-width: 1024px) {
   .portfolio {
@@ -26,8 +32,9 @@ body {
 }
 
 .img--full {
+  width: 100%;
   height: auto;
-  object-fit:contain;
+  object-fit: cover;
 }
 
 /* grid structure */
@@ -52,6 +59,7 @@ body {
   float:left;
   padding: 0 10px;
 }
+
 @media only screen and (min-width: 768px) {
   .one-third {
     width: calc(100%/3);
@@ -70,28 +78,66 @@ body {
   }
 }
 
-.portfolio{
-background-color: rgb(226, 240, 234);
+.content {
+  padding: 10px;
+}
 
+/* to refactor */
+.space-top-10{
+  padding-top: 10px;
 }
-.center {
-  text-align: right;
+
+.space-bottom-10{
+  padding-bottom: 10px;
 }
-.wrapper{
-  align-content: center;
-  width: 100%;
-}
+
+
+
 /* header */
 header {
   text-align: center;
-  padding: 20px 5px;
+  padding: 20px 10px;
 }
 
 /* hero */
 .hero-block {
-  padding: 10px;
+  padding: 40px;
   background-color: #ccc;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-block {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+  }
+}
+
+/* title */
+.title {
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* icon tiles */
+.icon-tile {
+  padding: 40px;
+  text-align: center;
+}
+
+.icon-tile h2{
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .icon-tile {
+    padding: 60px 40px;
+  }
+}
+
+
 /* portfolio sections */
 
 .grid-container {
@@ -130,8 +176,8 @@ header {
   padding: 10px;
 }
 
+/* footer */
 footer{
   text-align: center;
   padding-bottom: 20px;
 }
-

@@ -1,34 +1,31 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My Web Portfolio </title>
-<link
-rel="stylesheet"
-href="https://fonts.googleapis.com/css?family=Raleway"
-/>
-<link
-rel="stylesheet"
-href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
-<link rel="stylesheet" href="styles/main.css"/>
-</head>
-<body class="portfolio"></body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="portfolio">
     <!-- logo -->
     <header>
-      <div class="center">
-      <a href="index.html">HOME</a>
-    </div>
+      <img src="images/mw.svg" alt="" width="100" />
     </header>
 
     <!-- hero-->
-    <div class="hero">
-      <img class="img--full" src="./images/Logo_Design_03.03.png" height="30" alt="" />
+    <section class="hero">
+      <img class="img--full" src="images/sunset_landscape.jpg" alt="" />
       <div class="hero-block">
         <h1>Main title</h1>
         <p>Some other text</p>
       </div>
-    </div>
+    </section>
 
     <!-- 3 tiles -->
     <section class="row space-top-10">
@@ -58,7 +55,11 @@ href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.mi
     <!-- description block-->
     <section class="row">
       <div class="one-third">
-        <img class="img--full" src="./images/Live_Healthy.jpg" alt=""/>
+        <img
+          class="img--full"
+          src="./images/sunset-342x256.jpg"
+          alt="sunset"
+        />
       </div>
       <div class="two-thirds">
         <div class="content">
@@ -81,63 +82,69 @@ href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.mi
         </div>
       </div>
     </section>
-<section class="row-clear">
-  <h2 class="title">Portfolio</h2>
-  <div class="grid-container">
-    <div class="area1">
-      <img
-        class="item1 img-responsive"
-        src="./images/Live_Healthy.jpg"
-        alt="sunset"
-      />
-    </div>
-    <div class="area2">
-      <img
-        class="item2 img-responsive"
-        src="./images/Live_Healthy.jpg"
-        alt="sunset"
-      />
-    </div>
-    <div class="area3">
-      <img
-        class="item3 img-responsive"
-        src="./images/Live_Healthy.jpg"
-        alt="sunset"
-      />
-    </div>
-    <div class="area4">
-      <img
-        class="item4 img-responsive"
-        src="./images/Live_Healthy.jpg"
-        alt="sunset"
-      />
-    </div>
-  </div>
-</section>
-<section>
-  <h2 class="title">Contact</h2>
-  <div class="row">
-    <div class="half">
-      <div class="contact-details">
-        <p>Contact Details </p>
-        <p>OSLO Pharmaceutique </p>
-        <p> OSLO Visitor Site 1 </p>
-        <p>127 Jernigham Street </p>
-        <p>Colville Garden </p>
-        <p>Tel : +47 23 230 33 01 </p>
+
+    <!-- portfolio block-->
+
+    <section class="row-clear">
+      <h2 class="title">Portfolio</h2>
+      <div class="grid-container">
+        <div class="area1">
+          <img
+            class="item1 img-responsive"
+            src="./images/beach-340x520.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area2">
+          <img
+            class="item2 img-responsive"
+            src="./images/t-shirt-320x520.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area3">
+          <img
+            class="item3 img-responsive"
+            src="./images/slow-down-342x256jpg.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area4">
+          <img
+            class="item4 img-responsive"
+            src="./images/sunset-342x256.jpg"
+            alt="sunset"
+          />
+        </div>
       </div>
-    </div>
-    <div class="half">
-      <div class="contact-form">
-        <input type="text" name="name" placeholder="name" />
-        <textarea placeholder="message"></textarea>
-        <input type="submit" value="Send" />
+    </section>
+
+    <!-- contact block-->
+    <section>
+      <h2 class="title">Contact</h2>
+      <div class="row">
+        <div class="half">
+          <div class="contact-details">
+            <p>Address</p>
+            <p>Postal Address</p>
+            <p>Street name</p>
+            <p>Mauritius</p>
+            <p>5900 0000</p>
+          </div>
+        </div>
+        <div class="half">
+          <div class="contact-form">
+            <input type="text" name="name" placeholder="name" />
+            <textarea placeholder="message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<footer>
-  <p>&copy; OSLO Pharmaceutique</p>
-</footer>
-</body>
+    </section>
+
+    <!-- footer block-->
+    <footer>
+      <p>&copy; MW Photography 2021</p>
+    </footer>
+  </body>
 </html>
