@@ -17,42 +17,7 @@ body {
 .portfolio {
   width: 100%;
 }
-.center{
-  text-align: center;
-  font-size: 20px;
-  font-family: fantasy;
-  font-weight: bold;
-  font-style: oblique;
-  font-synthesis: style;
-  }
-  h1{
-    color: dodgerblue;
-  }
-  span{
-    line-height: .7;
-    text-shadow: 0 0 2px rgba(0, 0, 0, .45);
-    animation: span 3s ease-in infinite alternate;
-  }
-  .spantext{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 42px;
-  }
-  .letter{
-    display: inline-flex;
-    height: 30px;
-    width: 27px;
-    /* border: 2.5px solid #FF1EAD; */
-    border: 2.35px solid black;
-    border-radius: 14px;
-    box-shadow:
-      0 0 2px rgba(0, 0, 0, .75),
-      inset 0 0 2px rgba(0, 0, 0, .45);
-  
-    animation: letter 3s ease-in-out infinite alternate;
-  }
+
   @keyframes span {
     0%,30%{ margin: 0 15px; }
     70%,100%{ margin: 0 5px; }
@@ -134,24 +99,6 @@ body {
 .space-bottom-10{
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 375px) {
-  .one-third {
-    width: calc(100%/3);
-  }
-}
-
-@media only screen and (min-width: 375px) {
-  .half {
-    width: calc(100%/2);
-  }
-}
-
-@media only screen and (min-width: 375px) {
-  .two-thirds {
-    width: calc(2*100%/3);
-  }
-}
-
 
 /* header */
 header {
@@ -180,7 +127,42 @@ header {
     padding: 60px 40px;
   }
 }
-
+.center{
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: oblique;
+  font-synthesis: style;
+  }
+  h1{
+    color: dodgerblue;
+  }
+  span{
+    line-height: .7;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .45);
+    animation: span 3s ease-in infinite alternate;
+  }
+  .spantext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;
+  }
+  .letter{
+    display: inline-flex;
+    height: 30px;
+    width: 27px;
+    /* border: 2.5px solid #FF1EAD; */
+    border: 2.35px solid black;
+    border-radius: 14px;
+    box-shadow:
+      0 0 2px rgba(0, 0, 0, .75),
+      inset 0 0 2px rgba(0, 0, 0, .45);
+  
+    animation: letter 3s ease-in-out infinite alternate;
+  }
 
 /* portfolio sections */
 .right{
