@@ -65,7 +65,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .portfolio {
     width: 1024px;
-    margin: 0 auto;
+    margin: 10 auto;
   }
 }
 
@@ -134,7 +134,23 @@ body {
 .space-bottom-10{
   padding-bottom: 10px;
 }
+@media only screen and (min-width: 375px) {
+  .one-third {
+    width: calc(100%/3);
+  }
+}
 
+@media only screen and (min-width: 375px) {
+  .half {
+    width: calc(100%/2);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .two-thirds {
+    width: calc(2*100%/3);
+  }
+}
 
 
 /* header */
