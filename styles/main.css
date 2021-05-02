@@ -173,6 +173,12 @@ header {
   font-weight: bolder;
   padding-bottom: 18px;
 }
+.live{
+  text-align: left;
+  color: rgb(3, 10, 17);
+  font-weight: bolder;
+  padding-bottom: 18px; 
+}
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
