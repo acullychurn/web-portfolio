@@ -207,7 +207,7 @@ header {
 /* footer */
 footer{
   text-align: center;
-  color: dodgerblue;
+  color: rgb(3, 10, 17);
   font-weight: bolder;
   padding-bottom: 18px;
 }
