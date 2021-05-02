@@ -156,7 +156,7 @@ header {
     width: 27px;
     /* border: 2.5px solid #FF1EAD; */
     border: 2.35px solid black;
-    border-radius: 7px;
+    border-radius: 15px;
     box-shadow:
       0 0 2px rgba(0, 0, 0, .75),
       inset 0 0 2px rgba(0, 0, 0, .45);
