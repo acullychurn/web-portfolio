@@ -148,12 +148,12 @@ header {
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 24px;
+    font-size: 42px;
   }
   .letter{
     display: inline-flex;
     height: 30px;
-    width: 27px;
+    width: 17px;
     /* border: 2.5px solid #FF1EAD; */
     border: 2.35px solid black;
     border-radius: 14px;
