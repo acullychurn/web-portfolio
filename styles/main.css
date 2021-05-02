@@ -36,12 +36,12 @@ body {
 
 /* responsive image */
 .img-responsive {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
 .img--full {
-  width: 100%;
+  width: 80%;
   height: auto;
   object-fit: cover;
 }
