@@ -209,6 +209,11 @@ header {
         padding: 40px 20px;
       }
     }
+    @media only screen and (max-width: 375px) {
+      .spantext {
+        color: rgb(252, 248, 248);
+      }
+    }
     
     .content {
       padding: 10px;
