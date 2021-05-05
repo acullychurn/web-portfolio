@@ -17,12 +17,7 @@ body {
 .portfolio {
   width: 100%;
 }
-@media only screen and (min-width: 375px) {
-  .portfolio {
-    width: 375px;
-    margin: 10 auto;
-  }
-}
+
 @media only screen and (min-width: 375px) {
   .spantext{
     display: none;
