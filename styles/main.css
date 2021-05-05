@@ -17,6 +17,23 @@ body {
 .portfolio {
   width: 100%;
 }
+@media only screen and (min-width: 375px) {
+  .spantext{
+    width: left;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .half {
+    width: calc(100%/2);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .two-thirds {
+    width: calc(2*100%/3);
+  }
+}
 
 @media only screen and (min-width: 1024px) {
   .portfolio {
@@ -105,6 +122,8 @@ header {
   }
 }
 
+
+
 /* title */
 .title {
   border-left: 5px solid #ccc;
@@ -142,7 +161,7 @@ header {
     font-size: 42px;
   }
   .letter{
-    display: flex;
+    display:inline-flex;
     height: 30px;
     width: 27px;
     /* border: 2.5px solid #FF1EAD; */
