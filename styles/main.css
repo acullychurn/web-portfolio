@@ -207,6 +207,11 @@ header {
         width: calc(2*100%/3);
       }
     }
+    @media only screen and (max-width: 375px) {
+      .icon-tile {
+        padding: 40px 20px;
+      }
+    }
     
     .content {
       padding: 10px;
