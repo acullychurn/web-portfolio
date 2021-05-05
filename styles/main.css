@@ -135,14 +135,14 @@ header {
     animation: span 3s ease-in infinite alternate;
   }
   .spantext{
-    display:inline-flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 42px;
   }
   .letter{
-    display: inline-flex;
+    display: flex;
     height: 30px;
     width: 27px;
     /* border: 2.5px solid #FF1EAD; */
