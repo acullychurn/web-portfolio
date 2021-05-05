@@ -21,7 +21,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .portfolio {
     width: 1024px;
-    margin: 10 100%;
+    margin: 10 auto;
   }
 }
 
