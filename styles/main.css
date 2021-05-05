@@ -135,7 +135,7 @@ header {
     animation: span 3s ease-in infinite alternate;
   }
   .spantext{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
