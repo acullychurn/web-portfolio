@@ -17,7 +17,18 @@ body {
 .portfolio {
   width: 100%;
 }
+@media only screen and (max-width: 376px) {
+  .spantext{
+    display: none;
+  }
+}
 
+@media only screen and (min-width: 376px) {
+  .portfolio {
+    width: 370px;
+    margin: 10 auto;
+  }
+}
 
 
 @media only screen and (min-width: 1024px) {
@@ -133,12 +144,7 @@ header {
   h1{
     color: dodgerblue;
   }
-  @media only screen and (max-width: 375px) {
-    .spantext{
-      width:0;
-      font-size:0;
-    }
-  }
+
   span{
     line-height: .7;
     text-shadow: 0 0 2px rgba(0, 0, 0, .45);
