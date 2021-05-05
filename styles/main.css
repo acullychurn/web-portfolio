@@ -178,16 +178,17 @@ header {
     70%,100%{ width: 30vw; }
   }
   @media only screen and (max-width: 375px) {
+    .spantext{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 375px) {
     .portfolio {
       width: 375px;
       margin: 10 auto;
     }
   }
-  @media only screen and (max-width: 375px) {
-    .spantext{
-      display: none;
-    }
-  }
+
     @media only screen and (max-width: 375px) {
       .one-third {
         width: calc(100%/3);
