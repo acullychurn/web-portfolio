@@ -187,6 +187,7 @@ header {
     .spantext{
       display: none;
     }
+  }
     @media only screen and (max-width: 375px) {
       .one-third {
         width: 30px;
