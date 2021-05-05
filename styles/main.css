@@ -135,7 +135,8 @@ header {
   }
   @media only screen and (max-width: 375px) {
     .spantext{
-      display: none;
+      width:0;
+      font-size:0;
     }
   }
   span{
