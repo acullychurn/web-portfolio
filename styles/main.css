@@ -28,12 +28,12 @@ span{
   justify-content: center;
   align-items: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 12px;
+  font-size: 8px;
 }
 .letter{
   display:inline-flex;
   height: 10px;
-  width: 17px;
+  width: 10px;
   /* border: 2.5px solid #FF1EAD; */
   border: 0.35px solid black;
   border-radius: 7px;
@@ -46,11 +46,11 @@ span{
 
 
 @keyframes span {
-  0%,90%{ margin: 0 15px; }
+  0%,50%{ margin: 0 10px; }
   90%,100%{ margin: 0 5px; }
 }
 @keyframes letter {
-  0%,90%{ width: 17px; }
+  0%,50%{ width: 10px; }
   90%,100%{ width: 10vw; }
 }
 }
