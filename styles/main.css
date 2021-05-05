@@ -107,6 +107,11 @@ header {
   text-align: center;
   padding: 20px 10px;
 }
+@media only screen and (max-width: 375px) {
+  .spantext{
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .hero-block {
@@ -177,11 +182,7 @@ header {
     0%,30%{ width: 27px; }
     70%,100%{ width: 30vw; }
   }
-  @media only screen and (max-width: 375px) {
-    .spantext{
-      display: none;
-    }
-  }
+
   @media only screen and (max-width: 375px) {
     .portfolio {
       width: 375px;
