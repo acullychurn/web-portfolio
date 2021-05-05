@@ -155,7 +155,7 @@ header {
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 12px;
+    font-size: 42px;
   }
   .letter{
     display:inline-flex;
@@ -262,6 +262,8 @@ header {
     text-shadow: 0 0 2px rgba(0, 0, 0, .45);
     animation: span 3s ease-in infinite alternate;
   }
+}
+@media only screen and (max-width: 375px) {
   .spantext{
     display: inline-flex;
     justify-content: center;
