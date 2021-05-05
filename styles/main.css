@@ -24,7 +24,12 @@ body {
   }
 }
 @media only screen and (min-width: 375px) {
-  .span{
+  .spantext{
+    display: none;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .letter{
     display: none;
   }
 }
