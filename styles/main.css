@@ -18,10 +18,7 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 375px) {
-  .test{
-    display: none;
-  }
+
 
 @media only screen and (min-width: 1024px) {
   .portfolio {
@@ -171,7 +168,10 @@ header {
     0%,30%{ width: 27px; }
     70%,100%{ width: 30vw; }
   }
-
+  @media only screen and (min-width: 375px) {
+    .test{
+      display: none;
+    }
 
 /* portfolio sections */
 .right{
